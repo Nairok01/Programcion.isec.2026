@@ -1,0 +1,67 @@
+
+/* selector { propiedad: valor;} 
+    etiqueta
+    .clase
+    #id
+    *
+*/
+
+{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* clase */
+.textoBase{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+/* id */
+#parrafoFinal{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+/* Maqueta */
+.header{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* border: black solid; */
+    background: rgb(86, 132, 212);
+}
+.noticia{
+    width: 80%;
+    padding: 3%;
+    margin-left:auto;
+    margin-right: auto;
+    border-bottom: dashed 1px rgb(166, 166, 166);
+    display: flex;
+    fixed-wrap: 
+    justify-content: space-between;
+}
+.img-nota{
+ width: 40%
+}
+.text-nota{
+ width: 50%
+}
+
+.img{
+    width: 100%;
+}
+
+.footer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
